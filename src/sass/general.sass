@@ -1,0 +1,100 @@
+html
+    font-size: 1px
+// font-face
+@font-face 
+    font-family: Lato
+    src: url(../fonts/Lato-Regular.ttf) format(truetype), url(../fonts/Lato-Regular.woff) format(woff), url(../fonts/Lato-Regular.woff2) format(woff2) 
+// 0
+body,
+html
+    box-sizing: border-box
+    background: #f7f7f7
+    margin: 0
+a
+    text-decoration: none
+ul,
+li,
+ol
+    list-style: none
+    margin: 0
+// header
+header
+    height: 750rem
+    background-position: center
+    background-image: url(../img/header-background.png)
+.header-logo
+    padding-top: 30rem
+    ul
+        column-gap: 25rem
+    a
+        font-size: 13rem
+        letter-spacing: 3rem
+        text-transform: uppercase
+        color: #4d4959
+        font-weight: 700
+        font-family: "Lato"
+    .logo
+        padding: 25rem 0
+        @media screen and (min-width: 576px)
+            padding: 0 25rem
+// main
+main
+    margin: 120rem 0
+    // container
+    h1
+        font-size: 18rem
+        letter-spacing: 4rem
+        text-transform: uppercase
+        color: #353738
+        font-weight: 700
+        font-family: "Lato"
+        padding: 30rem 0 15rem 0
+    p
+        font-size: 18rem
+        line-height: 34rem
+        color: #848789
+        font-weight: 400
+        font-family: "Lato"
+    .h
+        padding: 0 15rem
+    // imagewithText
+    .imagewithText
+        padding: 100rem 0
+    h2 
+        font-size: 18rem
+        letter-spacing: 4rem
+        text-transform: uppercase
+        color: #353738
+        font-weight: 700
+        font-family: "Lato"
+    .small
+        width: 250px
+        font-size: 16px
+        line-height: 30px
+        color: #848789
+        font-weight: 400
+        font-family: "Lato"
+        text-align: left
+        @media screen and (min-width: 768px)
+            width: 425px
+    .sidayn
+        width: 100%
+    .imgText-block
+        background-color: #fff
+        padding: 0 50rem 74rem 50rem
+        img
+            padding: 70rem 0 31rem 0
+        h2
+            padding-bottom: 25rem
+    .img-one
+        background-image: url(../img/RylWithLogo.png)
+        width: 100%
+        background-position: 50% 0
+        height: 600rem
+        @media screen and (min-width: 1050px)
+            background-position: 0 0
+            background-size: cover
+        @media screen and (min-width: 1200px)
+            background-position: 50% 0
+        @media screen and (min-width: 1360px)
+            width: 80%
