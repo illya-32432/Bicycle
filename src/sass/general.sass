@@ -19,10 +19,12 @@ ol
     margin: 0
 // header
 header
-    height: 750rem
+    height: 830rem
     background-position: center
     background-size: cover
     background-image: url(../img/header-background.png)
+    @media screen and (min-width: 576px)
+        height: 750rem
 .header-logo
     padding-top: 30rem
     ul
@@ -34,10 +36,14 @@ header
         color: #4d4959
         font-weight: 700
         font-family: "Lato"
+        transition: .3s
+        &:hover
+            color: #00b5b3
+            transition: .3s
     .logo
         padding: 25rem 0
         @media screen and (min-width: 576px)
-            padding: 0 25rem
+            padding: 0 50rem
 // main
 main
     margin: 120rem 0
@@ -103,7 +109,7 @@ main
         background-image: url(../img/background-logoDwa.png)
         width: 100%
         background-position: 50% 0
-        height: 600rem
+        height: 601rem
         background-size: cover
     .persha-img
         background-image: url(../img/bgLogoIm.png)
@@ -197,3 +203,37 @@ h3
         background-color: #fff
         color: #333
         transition: .5s
+.second-logo-foot
+    padding: 110rem 0
+.inputsubtitle
+    padding: 40rem 0
+    font-size: 24rem
+    line-height: 34rem
+    color: #848789
+    font-weight: 400
+    font-style: italic
+    font-family: "Lato"
+.wwod
+    width: 250rem
+    opacity: 0.502  
+    line-height: 24rem
+    color: #22dbd2
+    font-weight: 400
+    font-style: italic
+    font-family: "Lato"
+    font-size: 20rem
+    padding: 20rem 0rem 20rem 20rem
+    outline: none
+.otpraw
+    margin-top: 20rem
+    padding: 20rem 
+    width: 100rem
+    opacity: 0.502  
+    line-height: 24rem
+    color: #ffffff
+    font-weight: 400
+    background-color: #0a884d
+    font-family: "Lato"
+    font-size: 20rem
+    @media screen and (min-width: 575px)
+        margin-top: 0

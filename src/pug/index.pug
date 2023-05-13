@@ -10,6 +10,7 @@ html(lang="en")
     body 
         header
             .wrapper
+                .slider(id="topSlide")
                 .header-logo.text-center.d-sm-flex.align-items-sm-center.justify-content-sm-center
                     nav 
                         ul.d-flex.justify-content-center
@@ -18,8 +19,9 @@ html(lang="en")
                             li
                                 a(href="#")  work
                     .logo 
-                        picture 
-                            img(src="img/logo.svg", alt="Logo Bicycle")     
+                        picture   
+                            a(href="#slider") 
+                                img(src="img/logo.svg", alt="Logo Bicycle")     
                     nav 
                         ul.d-flex.justify-content-center 
                             li
@@ -88,6 +90,16 @@ html(lang="en")
                                 img.w-100(src="img/black-back.png", alt="back")
             .discover.text-center 
                 a.buttom(href="#")  DISCOVER THE SHOP
+            .second-logo-foot.text-center.container 
+                .sliderdwa(id="slider")  
+                    picture 
+                        a(href="#topSlide") 
+                            img(src="img/logo.svg", alt="logo Bicycle")
+                p.inputsubtitle.text-center Stay on the saddle!
+                .dwa-inputa.d-sm-flex.justify-content-sm-center.d-block
+                    form(action="#" method="post").d-sm-flex.justify-content-sm-center.d-block
+                        input.d-sm-flex.justify-content-sm-center.d-block.mx-auto.wwod(type="text", required, placeholder="enter your email...")
+                        input.text-center.otpraw(type="submit" value="GO") 
         footer 
 
 
